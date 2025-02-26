@@ -11,7 +11,8 @@ class BaseAgent(Agent):
                 id="gpt-4",
                 api_key=os.environ.get("OPENAI_API_KEY")
             ),
-            instructions=instructions
+            instructions=instructions,
+            debug_mode=True
         )
 
 __all__ = ["BaseAgent"]
