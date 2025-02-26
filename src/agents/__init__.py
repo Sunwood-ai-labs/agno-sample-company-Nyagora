@@ -1,11 +1,17 @@
 # /agent-system/agent-system/src/agents/__init__.py
 
-from agno.agent import Agent
-from .base_agent import BaseAgent
-from .summary_agent import SummaryAgent
-from .translation_agent import TranslationAgent
-from .inventory_agent import InventoryAgent
-from .regulation_agent import RegulationAgent
-from .team_agent import TeamAgent
+from agents.base.base_agent import BaseAgent
+from agents.summary.summary_agent import SummaryAgent
+from agents.translation.translation_agent import TranslationAgent
+from agents.inventory.inventory_agent import InventoryAgent
+from agents.regulation.regulation_agent import RegulationAgent
+from agents.team.team_agent import TeamAgent
 
-__all__ = ["TeamAgent"]  # アプリケーションで直接必要なものだけをエクスポート
+__all__ = [
+    "BaseAgent", 
+    "SummaryAgent", 
+    "TranslationAgent", 
+    "InventoryAgent", 
+    "RegulationAgent", 
+    "TeamAgent"
+]
