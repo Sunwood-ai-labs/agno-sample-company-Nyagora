@@ -1,4 +1,15 @@
+<div align="center">
+
+![Nyagora](https://github.com/user-attachments/assets/518ff441-3d1e-409f-b116-df79852208fe)
+
 # 🐱 Nyagora - 猫のエージェントシステム
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+</div>
 
 ## 🌟 システム概要
 
