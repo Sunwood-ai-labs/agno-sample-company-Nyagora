@@ -1,6 +1,6 @@
 <div align="center">
 
-![Nyagora](https://github.com/user-attachments/assets/518ff441-3d1e-409f-b116-df79852208fe)
+![Image](https://github.com/user-attachments/assets/9b289c54-ed76-46d4-be85-02ba0458e663)
 
 # 🐱 Nyagora - 猫のエージェントシステム
 
