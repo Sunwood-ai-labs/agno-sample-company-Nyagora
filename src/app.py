@@ -3,7 +3,8 @@ import streamlit as st
 # ページ設定（最初に配置する必要があります）
 st.set_page_config(layout="wide")
 
-from agents import TeamAgent
+# 新しいフォルダ構造を反映したインポート
+from agents.team.team_agent import TeamAgent
 from dotenv import load_dotenv
 import os
 import time
@@ -58,14 +59,12 @@ def main():
                 team_agent = TeamAgent()
                 st.session_state['processing_start_time'] = start_time
                 response = team_agent.run(user_input, stream=True)
-
                 # プログレスバーを更新
                 for i in range(100):
                     my_bar.progress(i + 1)
 
             full_response_text = ""
             response_placeholder = st.empty()
-
             for chunk in response:
                 if (chunk.content is not None):
                     full_response_text += chunk.content
