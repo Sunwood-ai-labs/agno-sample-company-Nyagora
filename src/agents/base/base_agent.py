@@ -5,9 +5,11 @@ from dotenv import load_dotenv
 
 class BaseAgent(Agent):
     """基本エージェントクラス"""
-    def __init__(self, name: str, instructions: str):
+    def __init__(self, name: str, instructions: str, knowledge=None, search_knowledge=None):
         super().__init__(
             name=name,
+            knowledge=knowledge,
+            search_knowledge=search_knowledge,
             model=OpenAIChat(
                 id="gpt-4",
                 api_key=os.environ.get("OPENAI_API_KEY")
