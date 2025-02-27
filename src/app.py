@@ -31,17 +31,25 @@ def main():
         st.sidebar.error("APIキーを.envファイルで設定してください")
         return
 
-    st.title("🐱 猫のエージェントシステム「Nyagora」")
     st.markdown("""
-    ### システム概要
-    <div style='color: #3752A6'>
-    Nyagoraは、賢い猫たちがあなたのタスクをサポートする特別なシステムです。<br>
-    各猫エージェントは独自の専門分野を持ち、協力してタスクを処理します：
-    
-    - 📝 ミケ: テキストの要約を得意とする三毛猫
-    - 🌏 シャム: フランス語翻訳のエキスパートであるシャム猫
-    - 📦 クロ: 在庫管理を担当する几帳面な黒猫
-    - 📋 マル: 社内規定管理を担当する賢い茶トラ猫
+
+<div align="center">
+     
+![Image](https://github.com/user-attachments/assets/9b289c54-ed76-46d4-be85-02ba0458e663)
+
+# 🐱 Nyagora - AIエージェントシステム
+
+</div>
+
+### システム概要
+<div style='color: #3752A6'>
+Nyagoraは、賢い猫たちがあなたのタスクをサポートする特別なシステムです。<br>
+各猫エージェントは独自の専門分野を持ち、協力してタスクを処理します：
+
+- 📝 ミケ: テキストの要約を得意とする三毛猫
+- 🌏 シャム: フランス語翻訳のエキスパートであるシャム猫
+- 📦 クロ: 在庫管理を担当する几帳面な黒猫
+- 📋 マル: 社内規定管理を担当する賢い茶トラ猫
     """, unsafe_allow_html=True)
     st.markdown("<style>div.stButton > button {background-color: #76278C; color: white;}</style>", unsafe_allow_html=True)
     
